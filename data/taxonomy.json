@@ -1,0 +1,288 @@
+{   "Python": {
+        "aliases": ["python3", "python 3", "py", "python programming", "cpython",
+                    "python scripting", "python development"],
+        "category": "Programming"
+    },
+    "SQL": {
+        "aliases": ["mysql", "postgresql", "postgres", "sqlite", "t-sql", "pl/sql",
+                    "structured query language", "relational database", "oracle sql",
+                    "ms sql", "sql server", "transact-sql", "query language"],
+        "category": "Database"
+    },
+    "R": {
+        "aliases": ["r programming", "r language", "rstudio", "r studio",
+                    "tidyverse", "ggplot2", "dplyr", "caret"],
+        "category": "Programming"
+    },
+    "Java": {
+        "aliases": ["java se", "java ee", "jvm", "spring", "spring boot",
+                    "spring framework", "maven", "gradle", "j2ee"],
+        "category": "Programming"
+    },
+    "Scala": {
+        "aliases": ["scala programming", "akka", "play framework"],
+        "category": "Programming"
+    },
+    "C++": {
+        "aliases": ["cpp", "c plus plus", "stl", "cmake"],
+        "category": "Programming"
+    },
+    "Go": {
+        "aliases": ["golang", "go programming", "go language"],
+        "category": "Programming"
+    },
+    "JavaScript": {
+        "aliases": ["js", "node.js", "nodejs", "node js", "es6", "typescript",
+                    "react", "vue", "angular"],
+        "category": "Programming"
+    },
+    "Machine Learning": {
+        "aliases": ["ml", "statistical modeling", "statistical modelling",
+                    "predictive modeling", "predictive modelling",
+                    "supervised learning", "unsupervised learning",
+                    "semi-supervised", "regression", "classification",
+                    "clustering", "ml algorithms", "machine learning algorithms",
+                    "ml models", "ml pipeline", "ml workflow"],
+        "category": "ML/AI"
+    },
+    "Deep Learning": {
+        "aliases": ["dl", "neural network", "neural networks", "ann",
+                    "cnn", "convolutional neural network", "rnn",
+                    "recurrent neural network", "lstm", "gru",
+                    "transformer", "attention mechanism", "attention model",
+                    "self-attention", "encoder decoder", "autoencoder",
+                    "generative model", "diffusion model"],
+        "category": "ML/AI"
+    },
+    "NLP": {
+        "aliases": ["natural language processing", "text mining", "text analytics",
+                    "sentiment analysis", "named entity recognition", "ner",
+                    "language model", "large language model", "llm", "bert",
+                    "gpt", "text classification", "information extraction",
+                    "question answering", "text generation", "summarization",
+                    "machine translation", "word embedding", "word2vec", "glove",
+                    "prompt engineering", "fine-tuning llm", "rag",
+                    "retrieval augmented generation"],
+        "category": "ML/AI"
+    },
+    "Computer Vision": {
+        "aliases": ["cv", "image recognition", "image classification",
+                    "object detection", "yolo", "opencv", "image segmentation",
+                    "semantic segmentation", "image processing", "video analysis",
+                    "ocr", "optical character recognition"],
+        "category": "ML/AI"
+    },
+    "Reinforcement Learning": {
+        "aliases": ["rl", "reward learning", "q-learning", "policy gradient",
+                    "actor critic", "dqn", "ppo", "multi-agent"],
+        "category": "ML/AI"
+    },
+    "Generative AI": {
+        "aliases": ["genai", "gen ai", "stable diffusion", "dall-e",
+                    "gpt-4", "gpt4", "chatgpt", "foundation model",
+                    "multimodal", "text to image"],
+        "category": "ML/AI"
+    },
+
+    "TensorFlow": {
+        "aliases": ["tf", "tensorflow 2", "tensorflow2", "keras", "tf2",
+                    "tensorflow serving", "tensorflow lite", "tflite"],
+        "category": "ML Framework"
+    },
+    "PyTorch": {
+        "aliases": ["pytorch", "torch", "libtorch", "pytorch lightning",
+                    "torchvision", "torchaudio", "torchserve"],
+        "category": "ML Framework"
+    },
+    "Scikit-learn": {
+        "aliases": ["sklearn", "scikit learn", "sci-kit learn", "scikit-learn"],
+        "category": "ML Framework"
+    },
+    "XGBoost": {
+        "aliases": ["xgb", "gradient boosting", "lgbm", "lightgbm",
+                    "catboost", "gbm", "boosting", "gbdt",
+                    "gradient boosted trees"],
+        "category": "ML Framework"
+    },
+    "Hugging Face": {
+        "aliases": ["huggingface", "hf", "transformers library",
+                    "hugging face transformers", "datasets library",
+                    "peft", "lora", "qlora", "accelerate"],
+        "category": "ML Framework"
+    },
+
+
+    "Spark": {
+        "aliases": ["apache spark", "pyspark", "spark sql", "spark streaming",
+                    "spark ml", "databricks spark", "rdd"],
+        "category": "Data Engineering"
+    },
+    "Kafka": {
+        "aliases": ["apache kafka", "kafka streaming", "event streaming",
+                    "message queue", "rabbitmq", "confluent", "kafka connect",
+                    "kafka streams", "event-driven", "pub sub"],
+        "category": "Data Engineering"
+    },
+    "Airflow": {
+        "aliases": ["apache airflow", "workflow orchestration", "dag",
+                    "luigi", "prefect", "dagster", "workflow automation"],
+        "category": "Data Engineering"
+    },
+    "dbt": {
+        "aliases": ["data build tool", "dbt core", "dbt cloud"],
+        "category": "Data Engineering"
+    },
+    "Snowflake": {
+        "aliases": ["snowflake db", "snowflake data warehouse", "snowpark"],
+        "category": "Data Engineering"
+    },
+    "Databricks": {
+        "aliases": ["databricks platform", "delta lake", "delta table",
+                    "unity catalog", "mlflow databricks"],
+        "category": "Data Engineering"
+    },
+    "Hadoop": {
+        "aliases": ["hdfs", "mapreduce", "hive", "hbase", "pig", "yarn",
+                    "hadoop ecosystem"],
+        "category": "Data Engineering"
+    },
+    "ETL": {
+        "aliases": ["extract transform load", "etl pipeline", "data pipeline",
+                    "data ingestion", "data integration", "elt",
+                    "data warehouse pipeline", "fivetran", "stitch"],
+        "category": "Data Engineering"
+    },
+
+
+    "AWS": {
+        "aliases": ["amazon web services", "ec2", "s3", "lambda", "sagemaker",
+                    "emr", "redshift", "aws cloud", "cloudformation",
+                    "aws glue", "athena", "kinesis", "sns", "sqs",
+                    "elastic beanstalk", "ecs", "eks", "aws rds", "dynamodb"],
+        "category": "Cloud"
+    },
+    "GCP": {
+        "aliases": ["google cloud", "google cloud platform", "bigquery",
+                    "vertex ai", "dataflow", "cloud run", "gke",
+                    "cloud storage", "cloud functions", "cloud spanner",
+                    "looker", "google analytics"],
+        "category": "Cloud"
+    },
+    "Azure": {
+        "aliases": ["microsoft azure", "azure ml", "azure devops",
+                    "azure functions", "cosmos db", "azure blob",
+                    "azure data factory", "azure synapse", "azure databricks",
+                    "aks", "power platform"],
+        "category": "Cloud"
+    },
+
+
+    "Docker": {
+        "aliases": ["containerization", "container", "dockerfile",
+                    "docker compose", "docker swarm", "container image",
+                    "docker hub"],
+        "category": "MLOps/DevOps"
+    },
+    "Kubernetes": {
+        "aliases": ["k8s", "container orchestration", "helm", "kubectl",
+                    "kustomize", "kubernetes cluster", "service mesh", "istio"],
+        "category": "MLOps/DevOps"
+    },
+    "MLflow": {
+        "aliases": ["ml flow", "experiment tracking", "model registry",
+                    "kubeflow", "wandb", "weights and biases",
+                    "neptune", "comet", "model versioning"],
+        "category": "MLOps"
+    },
+    "CI/CD": {
+        "aliases": ["continuous integration", "continuous deployment",
+                    "github actions", "jenkins", "gitlab ci", "circleci",
+                    "travis ci", "continuous delivery", "devops pipeline",
+                    "automated testing", "deployment pipeline"],
+        "category": "DevOps"
+    },
+    "Terraform": {
+        "aliases": ["infrastructure as code", "iac", "pulumi",
+                    "terraform cloud", "ansible", "cloudformation"],
+        "category": "DevOps"
+    },
+
+
+    "MongoDB": {
+        "aliases": ["mongo", "mongodb atlas", "nosql database", "document database"],
+        "category": "Database"
+    },
+    "Redis": {
+        "aliases": ["redis cache", "in-memory database", "caching", "memcached"],
+        "category": "Database"
+    },
+    "Elasticsearch": {
+        "aliases": ["elastic search", "elk stack", "kibana", "logstash",
+                    "opensearch", "full-text search"],
+        "category": "Database"
+    },
+
+
+    "Data Analysis": {
+        "aliases": ["data analytics", "exploratory data analysis", "eda",
+                    "statistical analysis", "quantitative analysis",
+                    "data exploration", "business analytics",
+                    "descriptive analytics"],
+        "category": "Analytics"
+    },
+    "Tableau": {
+        "aliases": ["tableau desktop", "tableau server", "tableau public",
+                    "tableau prep", "tableau online"],
+        "category": "Visualization"
+    },
+    "Power BI": {
+        "aliases": ["powerbi", "power bi desktop", "microsoft power bi",
+                    "dax", "power query", "power bi service"],
+        "category": "Visualization"
+    },
+    "Matplotlib": {
+        "aliases": ["seaborn", "plotly", "ggplot", "ggplot2",
+                    "data visualization", "visualisation", "bokeh",
+                    "altair", "dash", "streamlit"],
+        "category": "Visualization"
+    },
+    "Excel": {
+        "aliases": ["microsoft excel", "ms excel", "spreadsheet",
+                    "pivot table", "vba", "vlookup", "google sheets"],
+        "category": "Tools"
+    },
+
+  
+    "Statistics": {
+        "aliases": ["statistical methods", "probability", "hypothesis testing",
+                    "a/b testing", "ab testing", "bayesian", "frequentist",
+                    "experimental design", "causal inference",
+                    "multivariate analysis", "time series", "forecasting",
+                    "survival analysis", "econometrics"],
+        "category": "Statistics"
+    },
+
+
+    "Git": {
+        "aliases": ["github", "gitlab", "version control", "bitbucket",
+                    "git workflow", "pull request", "code review"],
+        "category": "Tools"
+    },
+    "Linux": {
+        "aliases": ["unix", "bash", "shell scripting", "command line",
+                    "ubuntu", "centos", "debian", "shell script",
+                    "bash scripting", "zsh"],
+        "category": "Tools"
+    },
+
+
+    "Communication": {
+        "aliases": ["presentation skills", "stakeholder communication",
+                    "written communication", "verbal communication",
+                    "storytelling with data", "data storytelling",
+                    "executive communication"],
+        "category": "Soft Skills"
+    }
+}
+
+
