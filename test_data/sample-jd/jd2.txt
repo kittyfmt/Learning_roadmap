@@ -1,0 +1,18 @@
+Company: Amazon / E-commerce
+Location: Seattle, WA
+
+Job Description
+
+We are looking for a Data Analyst to support business decision-making through data insights and reporting.
+
+Responsibilities
+	•	Extract and analyze data using SQL
+	•	Build dashboards (Tableau/Power BI)
+	•	Perform trend analysis and forecasting
+	•	Support business teams with insights
+
+Qualifications
+	•	Bachelor’s degree in quantitative field
+	•	Strong SQL and Excel skills
+	•	Experience with BI tools
+	•	Analytical thinking

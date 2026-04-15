@@ -1,0 +1,19 @@
+Company: LinkedIn / Tech Company
+Location: San Francisco, CA
+
+Job Description
+
+We are seeking a Data Scientist to help drive data-driven decision making across product and business teams. You will work with large-scale datasets to uncover insights and build predictive models.
+
+Responsibilities
+	•	Analyze large structured and unstructured datasets
+	•	Develop statistical and machine learning models
+	•	Collaborate with product and engineering teams
+	•	Communicate insights to stakeholders
+	•	Design experiments (A/B testing)
+
+Qualifications
+	•	BS/MS in Computer Science, Statistics, or related field
+	•	Proficiency in Python, SQL
+	•	Experience with machine learning and data analysis
+	•	Strong communication skills
