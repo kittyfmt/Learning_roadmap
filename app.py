@@ -4,6 +4,7 @@ Career Roadmap — home: upload documents, set budget, launch the analysis pipel
 import streamlit as st
 
 from backend.streamlit_helpers import text_from_upload
+import subprocess
 try:
     import pkg_resources
 except ImportError:
