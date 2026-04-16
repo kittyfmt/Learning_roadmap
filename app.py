@@ -4,6 +4,11 @@ Career Roadmap — home: upload documents, set budget, launch the analysis pipel
 import streamlit as st
 
 from backend.streamlit_helpers import text_from_upload
+try:
+    import pkg_resources
+except ImportError:
+    subprocess.check_call([sys.executable, "-m", "pip", "install", "setuptools"])
+    import pkg_resources
 
 st.set_page_config(
     page_title="Career Roadmap",
