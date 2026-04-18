@@ -5,16 +5,11 @@ from pathlib import Path
 
 import pandas as pd
 import streamlit as st
-import subprocess
 
 _ROOT = Path(__file__).resolve().parent.parent
 if str(_ROOT) not in sys.path:
     sys.path.insert(0, str(_ROOT))
-try:
-    import pkg_resources
-except (ImportError, ModuleNotFoundError):
-    subprocess.check_call([sys.executable, "-m", "pip", "install", "setuptools==69.5.1"])
-    import pkg_resources
+
 from backend.streamlit_helpers import get_pipeline_models
 
 st.set_page_config(page_title="Skill analysis", page_icon="\U0001f50d", layout="wide")

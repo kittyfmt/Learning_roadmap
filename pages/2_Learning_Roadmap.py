@@ -156,7 +156,6 @@ jd_rows = st.session_state.get("jd_skill_rows") or []
 resume_skills = st.session_state.get("resume_skills_list") or []
 
 
-@st.cache_data
 def get_courses(missing_tuple, time_budget, refresher_tuple):
     missing = [{"skill": a, "relevance": b, "priority": c} for a, b, c in missing_tuple]
     refresher = [{"skill": s, "relevance": r, "priority": p} for s, r, p in refresher_tuple]
