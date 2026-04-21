@@ -147,6 +147,17 @@ class JDSkillExtractor:
 
                 if len(name_lower) < 2 or len(name_lower.split()) > 3: continue
                 if name_lower in banned_entities: continue
+
+                _NOISE_RE = re.compile(
+                    r'^\d'           # starts with digit: 185, 000
+                    r'|\d{3,}'       # 3+ consecutive digits: 000, 145000
+                    r'|\$'           # dollar sign: $185
+                    r'|^\('          # starts with bracket: (56
+                    r'|[%/@#*]'      # special symbols: 100%
+                    r'|\d+\s*(hour|hr|year|yr|k|usd)s?',  # time/salary patterns
+                    re.IGNORECASE
+                )
+                if _NOISE_RE.search(name_lower): continue
                 
                 tokens = self.nlp(clean_skill)
                 if all(t.pos_ in ['VERB', 'ADV', 'PRON'] or t.is_stop for t in tokens): continue
