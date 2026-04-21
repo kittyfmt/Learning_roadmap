@@ -1,4 +1,5 @@
-{   "Python": {
+{
+    "Python": {
         "aliases": ["python3", "python 3", "py", "python programming", "cpython",
                     "python scripting", "python development"],
         "category": "Programming"
@@ -36,6 +37,39 @@
                     "react", "vue", "angular"],
         "category": "Programming"
     },
+    "Rust": {
+        "aliases": ["rust programming", "rust lang", "cargo", "webassembly rust"],
+        "category": "Programming"
+    },
+    "Swift": {
+        "aliases": ["swift programming", "swiftui", "ios development", "xcode"],
+        "category": "Programming"
+    },
+    "Kotlin": {
+        "aliases": ["kotlin programming", "android development", "jetpack compose"],
+        "category": "Programming"
+    },
+    "PHP": {
+        "aliases": ["php programming", "laravel", "symfony", "wordpress development"],
+        "category": "Programming"
+    },
+    "Ruby": {
+        "aliases": ["ruby programming", "ruby on rails", "rails", "sinatra"],
+        "category": "Programming"
+    },
+    "MATLAB": {
+        "aliases": ["matlab programming", "simulink", "octave"],
+        "category": "Programming"
+    },
+    "SAS": {
+        "aliases": ["sas programming", "sas analytics", "sas studio", "proc sql"],
+        "category": "Programming"
+    },
+    "Julia": {
+        "aliases": ["julia programming", "julia lang"],
+        "category": "Programming"
+    },
+
     "Machine Learning": {
         "aliases": ["ml", "statistical modeling", "statistical modelling",
                     "predictive modeling", "predictive modelling",
@@ -80,8 +114,66 @@
     "Generative AI": {
         "aliases": ["genai", "gen ai", "stable diffusion", "dall-e",
                     "gpt-4", "gpt4", "chatgpt", "foundation model",
-                    "multimodal", "text to image"],
+                    "multimodal", "text to image", "image generation",
+                    "ai content generation", "midjourney", "sora"],
         "category": "ML/AI"
+    },
+    "AI Agents": {
+        "aliases": ["llm agent", "autonomous agent", "agentic ai", "ai agent",
+                    "langchain", "langgraph", "autogpt", "crewai",
+                    "multi-agent system", "tool use", "function calling",
+                    "agent framework", "openai assistants", "agentic workflow"],
+        "category": "ML/AI"
+    },
+    "MLOps": {
+        "aliases": ["machine learning operations", "model deployment",
+                    "model monitoring", "model serving", "feature store",
+                    "ml infrastructure", "ml platform", "model ops",
+                    "bentoml", "seldon", "triton inference server"],
+        "category": "MLOps"
+    },
+    "Responsible AI": {
+        "aliases": ["ai ethics", "responsible ai", "ai fairness", "model explainability",
+                    "xai", "explainable ai", "ai bias", "algorithmic fairness",
+                    "model interpretability", "shap", "lime", "ai safety",
+                    "ai governance", "ai regulation"],
+        "category": "ML/AI"
+    },
+    "Graph Machine Learning": {
+        "aliases": ["graph neural network", "gnn", "graph learning",
+                    "knowledge graph", "graph embedding", "node2vec",
+                    "graph convolutional network", "gcn"],
+        "category": "ML/AI"
+    },
+
+    "AI Coding Tools": {
+        "aliases": ["github copilot", "copilot", "cursor", "cursor ai",
+                    "codeium", "tabnine", "amazon codewhisperer", "codewhisperer",
+                    "ai coding", "ai pair programming", "ai code assistant",
+                    "claude code", "devin", "aider", "replit ai",
+                    "ai-assisted development", "llm-assisted coding",
+                    "windsurf", "supermaven"],
+        "category": "AI Tools"
+    },
+    "Prompt Engineering": {
+        "aliases": ["prompt design", "few-shot prompting", "chain of thought",
+                    "cot prompting", "zero-shot", "system prompt",
+                    "prompt tuning", "prompt optimization",
+                    "prompt chaining", "instruction tuning"],
+        "category": "AI Tools"
+    },
+    "LLM APIs": {
+        "aliases": ["openai api", "anthropic api", "claude api", "gemini api",
+                    "cohere", "mistral", "llama", "open source llm",
+                    "ollama", "groq", "together ai", "azure openai",
+                    "openrouter", "llm integration"],
+        "category": "AI Tools"
+    },
+    "Vector Databases": {
+        "aliases": ["vector db", "pinecone", "weaviate", "qdrant", "chroma",
+                    "milvus", "pgvector", "faiss", "annoy",
+                    "semantic search", "embedding search", "vector store"],
+        "category": "AI Tools"
     },
 
     "TensorFlow": {
@@ -110,7 +202,15 @@
                     "peft", "lora", "qlora", "accelerate"],
         "category": "ML Framework"
     },
-
+    "JAX": {
+        "aliases": ["jax", "flax", "haiku", "optax", "google jax"],
+        "category": "ML Framework"
+    },
+    "LangChain": {
+        "aliases": ["langchain", "llama index", "llamaindex", "haystack",
+                    "semantic kernel", "llm orchestration", "rag framework"],
+        "category": "ML Framework"
+    },
 
     "Spark": {
         "aliases": ["apache spark", "pyspark", "spark sql", "spark streaming",
@@ -152,7 +252,19 @@
                     "data warehouse pipeline", "fivetran", "stitch"],
         "category": "Data Engineering"
     },
-
+    "Streaming Data": {
+        "aliases": ["real-time data", "stream processing", "flink", "apache flink",
+                    "apache beam", "kinesis data streams", "google pub/sub",
+                    "real-time analytics", "event-driven architecture",
+                    "change data capture", "cdc"],
+        "category": "Data Engineering"
+    },
+    "Data Lakehouse": {
+        "aliases": ["data lake", "data lakehouse", "apache iceberg", "apache hudi",
+                    "delta format", "open table format", "data mesh",
+                    "data fabric", "lake formation"],
+        "category": "Data Engineering"
+    },
 
     "AWS": {
         "aliases": ["amazon web services", "ec2", "s3", "lambda", "sagemaker",
@@ -175,7 +287,11 @@
                     "aks", "power platform"],
         "category": "Cloud"
     },
-
+    "Multi-Cloud": {
+        "aliases": ["multicloud", "cloud agnostic", "hybrid cloud",
+                    "cloud migration", "cloud architecture", "cloud strategy"],
+        "category": "Cloud"
+    },
 
     "Docker": {
         "aliases": ["containerization", "container", "dockerfile",
@@ -206,7 +322,18 @@
                     "terraform cloud", "ansible", "cloudformation"],
         "category": "DevOps"
     },
-
+    "Observability": {
+        "aliases": ["monitoring", "logging", "tracing", "prometheus", "grafana",
+                    "datadog", "new relic", "splunk", "opentelemetry",
+                    "apm", "application performance monitoring", "elk stack"],
+        "category": "DevOps"
+    },
+    "API Development": {
+        "aliases": ["rest api", "restful api", "graphql", "grpc", "fastapi",
+                    "flask", "django", "express.js", "api design",
+                    "openapi", "swagger", "microservices"],
+        "category": "DevOps"
+    },
 
     "MongoDB": {
         "aliases": ["mongo", "mongodb atlas", "nosql database", "document database"],
@@ -221,13 +348,35 @@
                     "opensearch", "full-text search"],
         "category": "Database"
     },
-
+    "Graph Databases": {
+        "aliases": ["neo4j", "graph db", "graph database", "arangodb",
+                    "amazon neptune", "tigergraph", "cypher query"],
+        "category": "Database"
+    },
+    "Time Series Databases": {
+        "aliases": ["influxdb", "timescaledb", "prometheus tsdb",
+                    "time series data", "tsdb", "clickhouse"],
+        "category": "Database"
+    },
 
     "Data Analysis": {
         "aliases": ["data analytics", "exploratory data analysis", "eda",
                     "statistical analysis", "quantitative analysis",
                     "data exploration", "business analytics",
                     "descriptive analytics"],
+        "category": "Analytics"
+    },
+    "Business Intelligence": {
+        "aliases": ["bi", "business intelligence", "reporting", "dashboard",
+                    "self-service analytics", "data reporting",
+                    "analytics platform"],
+        "category": "Analytics"
+    },
+    "Product Analytics": {
+        "aliases": ["product metrics", "funnel analysis", "cohort analysis",
+                    "user analytics", "growth analytics", "retention analysis",
+                    "mixpanel", "amplitude", "heap", "segment",
+                    "user behavior analytics"],
         "category": "Analytics"
     },
     "Tableau": {
@@ -251,8 +400,12 @@
                     "pivot table", "vba", "vlookup", "google sheets"],
         "category": "Tools"
     },
+    "Looker": {
+        "aliases": ["looker studio", "lookml", "google looker", "metabase",
+                    "apache superset", "redash", "mode analytics"],
+        "category": "Visualization"
+    },
 
-  
     "Statistics": {
         "aliases": ["statistical methods", "probability", "hypothesis testing",
                     "a/b testing", "ab testing", "bayesian", "frequentist",
@@ -261,7 +414,14 @@
                     "survival analysis", "econometrics"],
         "category": "Statistics"
     },
-
+    "Optimization": {
+        "aliases": ["mathematical optimization", "linear programming",
+                    "integer programming", "convex optimization",
+                    "operations research", "or", "simulation",
+                    "monte carlo", "stochastic optimization",
+                    "genetic algorithm", "evolutionary algorithm"],
+        "category": "Statistics"
+    },
 
     "Git": {
         "aliases": ["github", "gitlab", "version control", "bitbucket",
@@ -274,15 +434,168 @@
                     "bash scripting", "zsh"],
         "category": "Tools"
     },
+    "Jupyter": {
+        "aliases": ["jupyter notebook", "jupyter lab", "ipython", "google colab",
+                    "databricks notebook", "kaggle notebook"],
+        "category": "Tools"
+    },
 
+    "Cybersecurity": {
+        "aliases": ["information security", "infosec", "network security",
+                    "penetration testing", "pentest", "vulnerability assessment",
+                    "siem", "soc", "threat detection", "incident response",
+                    "zero trust", "iam", "identity access management",
+                    "encryption", "pki", "firewall", "intrusion detection",
+                    "owasp", "ethical hacking", "red team", "blue team"],
+        "category": "Security"
+    },
+    "Privacy & Compliance": {
+        "aliases": ["gdpr", "ccpa", "data privacy", "data governance",
+                    "data compliance", "data stewardship", "hipaa",
+                    "sox compliance", "data cataloging", "data lineage",
+                    "pii", "data anonymization", "data masking"],
+        "category": "Security"
+    },
 
+    "Quantitative Finance": {
+        "aliases": ["quant", "quantitative analysis", "algorithmic trading",
+                    "algo trading", "financial modeling", "risk modeling",
+                    "derivatives pricing", "options pricing", "black scholes",
+                    "portfolio optimization", "factor model", "alpha generation",
+                    "backtesting", "systematic trading", "high frequency trading",
+                    "hft", "market microstructure"],
+        "category": "Finance"
+    },
+    "Financial Analysis": {
+        "aliases": ["financial planning", "fp&a", "valuation", "dcf",
+                    "financial reporting", "ifrs", "gaap", "accounting",
+                    "bloomberg terminal", "bloomberg", "refinitiv",
+                    "capital markets", "investment analysis",
+                    "equity research", "credit analysis"],
+        "category": "Finance"
+    },
+    "Risk Management": {
+        "aliases": ["credit risk", "market risk", "operational risk",
+                    "var", "value at risk", "risk analytics",
+                    "stress testing", "model risk", "fraud detection",
+                    "anti-money laundering", "aml", "kyc"],
+        "category": "Finance"
+    },
+
+    "Bioinformatics": {
+        "aliases": ["genomics", "proteomics", "sequencing", "genome analysis",
+                    "rna-seq", "dna analysis", "biopython", "bioconductor",
+                    "variant calling", "gene expression", "gwas",
+                    "computational biology", "structural biology"],
+        "category": "Healthcare/Life Sciences"
+    },
+    "Clinical Data": {
+        "aliases": ["clinical trials", "electronic health record", "ehr",
+                    "emr", "clinical analytics", "real world evidence", "rwe",
+                    "epidemiology", "pharmacovigilance", "clinical research",
+                    "fda regulatory", "medical imaging analysis",
+                    "health informatics", "cdisc", "sdtm"],
+        "category": "Healthcare/Life Sciences"
+    },
+    "Medical AI": {
+        "aliases": ["healthcare ai", "clinical ai", "diagnostic ai",
+                    "medical image analysis", "pathology ai",
+                    "radiology ai", "drug discovery ai",
+                    "precision medicine", "digital health"],
+        "category": "Healthcare/Life Sciences"
+    },
+
+    "Digital Marketing Analytics": {
+        "aliases": ["marketing analytics", "web analytics", "seo", "sem",
+                    "google analytics", "ga4", "google ads", "facebook ads",
+                    "paid media", "attribution modeling", "customer journey",
+                    "marketing mix modeling", "mmm", "programmatic advertising",
+                    "crm analytics", "email marketing analytics"],
+        "category": "Marketing"
+    },
+    "Customer Analytics": {
+        "aliases": ["customer segmentation", "churn prediction", "clv",
+                    "customer lifetime value", "ltv", "customer scoring",
+                    "recommendation system", "recommender system",
+                    "personalization", "next best action", "customer 360"],
+        "category": "Marketing"
+    },
+
+    "Legal Tech": {
+        "aliases": ["legal analytics", "contract analysis", "contract review",
+                    "e-discovery", "legal nlp", "legal ai",
+                    "regulatory compliance", "litigation analytics",
+                    "legal document review"],
+        "category": "Legal"
+    },
+
+    "Supply Chain Analytics": {
+        "aliases": ["supply chain optimization", "demand forecasting",
+                    "inventory optimization", "logistics analytics",
+                    "route optimization", "procurement analytics",
+                    "sap", "erp analytics", "warehouse management"],
+        "category": "Operations"
+    },
+    "HR Analytics": {
+        "aliases": ["people analytics", "workforce analytics", "talent analytics",
+                    "attrition prediction", "employee engagement",
+                    "recruitment analytics", "hris",
+                    "workforce planning", "org analytics"],
+        "category": "HR"
+    },
+    "IoT & Edge Computing": {
+        "aliases": ["internet of things", "iot", "edge ai", "edge computing",
+                    "embedded systems", "mqtt", "arduino", "raspberry pi",
+                    "industrial iot", "iiot", "smart devices",
+                    "sensor data", "tinyml", "edge inference"],
+        "category": "Emerging Tech"
+    },
+    "Blockchain": {
+        "aliases": ["web3", "smart contract", "solidity", "ethereum",
+                    "defi", "decentralized finance", "nft",
+                    "distributed ledger", "hyperledger", "crypto",
+                    "blockchain analytics", "on-chain data"],
+        "category": "Emerging Tech"
+    },
+    "Quantum Computing": {
+        "aliases": ["quantum machine learning", "quantum ml", "qml",
+                    "qiskit", "quantum circuit", "quantum algorithms",
+                    "quantum annealing", "d-wave", "quantum optimization"],
+        "category": "Emerging Tech"
+    },
+
+    "Game Development": {
+        "aliases": ["unity", "unreal engine", "game engine",
+                    "game design", "c# game", "game ai",
+                    "procedural generation", "physics simulation",
+                    "shader programming", "hlsl", "glsl"],
+        "category": "Game/Simulation"
+    },
+    "Simulation": {
+        "aliases": ["agent-based simulation", "discrete event simulation",
+                    "system dynamics", "digital twin", "anylogic",
+                    "simpy", "physics simulation"],
+        "category": "Game/Simulation"
+    },
+
+    "Project Management": {
+        "aliases": ["agile", "scrum", "kanban", "jira", "product roadmap",
+                    "sprint planning", "stakeholder management",
+                    "pmp", "prince2", "project planning",
+                    "risk assessment", "confluence"],
+        "category": "Soft Skills"
+    },
     "Communication": {
         "aliases": ["presentation skills", "stakeholder communication",
                     "written communication", "verbal communication",
                     "storytelling with data", "data storytelling",
                     "executive communication"],
         "category": "Soft Skills"
+    },
+    "Leadership": {
+        "aliases": ["team leadership", "people management", "mentoring",
+                    "coaching", "cross-functional collaboration",
+                    "team building", "technical leadership", "staff engineer"],
+        "category": "Soft Skills"
     }
 }
-
-
